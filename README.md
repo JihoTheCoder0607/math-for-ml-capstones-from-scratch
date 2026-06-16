@@ -9,7 +9,6 @@ Modern machine learning libraries hide much of the underlying mathematical opera
 No high-level machine learning frameworks (such as PyTorch, TensorFlow, or scikit-learn) are used. The goal is to implement the fundamental algorithms manually using only NumPy.
 
 ## Projects
----
 * **Course 1: Linear Algebra** $\rightarrow$ **Principal Component Analysis (PCA)**
   * Implementing:
     * Matrix operations
@@ -32,7 +31,6 @@ No high-level machine learning frameworks (such as PyTorch, TensorFlow, or sciki
     * Classification
 
 ## Evaluation Plan
----
 I will use the **MNIST Handwritten Digits** dataset to test and compare the models:
 1. **Dimensionality Reduction:** Apply my PCA implementation and test reconstruction.
 2. **Neural Network Learning:** Train my Neural Network implementation.
