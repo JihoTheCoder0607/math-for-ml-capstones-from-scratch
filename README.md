@@ -11,11 +11,15 @@ No high-level machine learning frameworks (such as PyTorch, TensorFlow, or sciki
 ## Projects
 * **Course 1: Linear Algebra** $\rightarrow$ **Principal Component Analysis (PCA)**
   * Implementing:
-    * Matrix operations
-    * Covariance matrix computation
-    * Eigendecomposition
-    * Projection into lower-dimensional spaces
-    * Data reconstruction
+    * Helper Functions: Mean, Variance, Standard Deviation, Covariance, Dot Product, Euclidean Norm, Vector Normalization, Vector Projection
+    * Classical Gram-Schmidt orthogonalization
+    * QR Decomposition
+    * QR Algorithm for eigendecomposition
+    * Principal Component Analysis
+      1. Standardize Data
+      2. Compute Covariance Matrix
+      3. Eigendecomposition of the covariance matrix using the QR algorithm
+      4. Projecting the original data on the principal components
 * **Course 2: Calculus** $\rightarrow$ **Neural Network**
   * Implementing
     * Forward propagation
